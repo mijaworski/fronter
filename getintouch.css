@@ -30,6 +30,7 @@ body::before {
     background-image: url(images/logo/background.jpg);
     background-size: 1000px;
     background-position: center;
+    background-repeat: no-repeat;
     content: "";
     display: block;
     position: absolute;
@@ -95,6 +96,7 @@ h2 {
     background-repeat: no-repeat;
     padding-left: 12px;
     margin-bottom: 20px;
+    align-items: baseline;
 }
 
 .emailicon {
@@ -103,6 +105,7 @@ h2 {
     background-repeat: no-repeat;
     padding-left: 12px;
     margin-bottom: 20px;
+    align-items: baseline;
 }
 
 .slackicon {
@@ -111,6 +114,7 @@ h2 {
     background-repeat: no-repeat;
     padding-left: 12px;
     margin-bottom: 20px;
+    align-items: baseline;
 }
 
 /* social media */
