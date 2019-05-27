@@ -2,6 +2,7 @@
     font-family: aioli;
     src: url(font/HelveticaNeueLTStd-LtCn.otf);
 }
+
 @font-face {
     font-family: tarragon;
     src: url(font/HelveticaNeueLTStd-Bd.otf);
@@ -12,7 +13,15 @@
 /* general*/
 * {
     padding: 0;
-    
+
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 a {
@@ -21,23 +30,24 @@ a {
     font-family: tarragon;
     align-content: space-between;
     flex-direction: row;
-    
+
 }
 
 h2 {
     color: white;
     font-family: tarragon;
-    text-align: center; 
+    text-align: center;
     font-size: 24px;
 }
 
 
-body {
+
+.background {
     background-image: url(images/logo/background.jpg);
     background-position: center;
     background-size: 1100px;
     background-repeat: no-repeat;
-    
+
 }
 
 .container {
@@ -69,4 +79,3 @@ body {
     text-align: center;
     padding: 5px;
 }
-

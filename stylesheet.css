@@ -1,18 +1,124 @@
-body{
+@font-face{
+    font-family: aioli;
+    src: url(font/HelveticaNeueLTStd-LtCn.otf);
+}
+
+@font-face{
+    font-family: tarragon;
+    src: url(font/HelveticaNeueLTStd-Bd.otf);
+}
+
+body {
     color: indianred;
 }
 
-form{
+form {
+    font-family: tarragon;
     position: absolute;
     z-index: 1;
     top: 0px;
     right: 450px;
     padding: 50 50 50 50px;
-    text-align:center;
+    text-align: center;
     align-content: center;
     width: 414px;
     height: 736px;
     background-image: url(images/logo/background.jpg);
+    opacity: 0.75;
     background-position: center;
-    background-size: 1420px
+    background-size: 1420px;
+}
+
+
+h2{
+    font-family: aioli;
+    color: #FFFF;
+}
+
+input[type=submit]{
+    align-items: center;
+    width: 313px;
+    height: 46px;
+    border-radius: 12px;
+    border: 0px;
+    background-color: #EA5045;
+    color: #FFFFFF;
+    font-family: tarragon;
+    font-size: 24px;
+    text-align: bottom;
+}
+
+input[type=checkbox]{
+    margin-bottom: 50;
+    margin-top: 30;
+    width: 20;
+    height: 20;
+}
+
+#checkbox{
+    color: white;
+    
+    
+}
+
+a{
+    color: #FFFFFF;
+}
+
+a:hover{
+    color: #EA5045;
+}
+
+span + span{
+    margin-left: 10px;
+}
+
+input[type=password]{
+    align-items: center;
+    width: 313px;
+    height: 46px;
+    border-radius: 12px;
+    border: 0px;
+    background-color: #FFFFFF;
+    color: #707070;
+    font-family: tarragon;
+    font-size: 24px;
+    text-align: center;
+}
+
+.pw{
+    background-image:url(images/interface-icones/password.png);
+    background-repeat: no-repeat;
+    background-position: 10 center;
+    padding-left: 12px;
+}
+
+input[type=text]{
+    align-items: center;
+    width: 313px;
+    height: 46px;
+    border-radius: 12px;
+    border: 0px;
+    background-color: #FFFFFF;
+    color: #707070;
+    font-family: tarragon;
+    font-size: 24px;
+    text-align: center;
+}
+
+.username{
+    background-image:url(images/interface-icones/username.png);
+    background-repeat: no-repeat;
+    background-position: 10 center;
+    padding-left: 12px;
+    margin-bottom: 30px;
+}
+
+#newaccount{
+    color: #FFFF;
+    padding: 10;
+}
+
+.flag{
+    margin-top: 9;
 }
