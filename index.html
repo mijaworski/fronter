@@ -1,10 +1,21 @@
 <html>
+
 <body>
-    <div>
-    <ul>
-        <li>bricks</li>
-        <li>mortar</li>
-    </ul>
-    </div>
+    <button id="btn">Open</button>
+    <section>
+        <form id="loginfrom" action="t2.html">
+            <h2>Login</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" place="Your name">
+            <label for="pw">Password</label>
+            <input type="password" id="pw" placeholder="Password">
+            <input type="submit" value="send">
+        </form>
+    </section>
+    <script>
+        btn.addEventListener("click", () => loginform.classList.toggle("show"))
+
+    </script>
 </body>
+
 </html>
