@@ -1,8 +1,54 @@
-/*  {
+@font-face {
+    font-family: aioli;
+    src: url(font/HelveticaNeueLTStd-LtCn.otf);
+}
+
+@font-face {
+    font-family: tarragon;
+    src: url(font/HelveticaNeueLTStd-Bd.otf);
+}
+
+
+
+/* general*/
+* {
+    padding: 0;
+
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: tarragon;
+    align-content: space-between;
+    flex-direction: row;
+
+}
+
+h2 {
+    color: white;
+    font-family: tarragon;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+.background {
     background-image: url(images/logo/background.jpg);
-    background-size: 270%;
+    background-position: center;
+    background-size: 1100px;
     background-repeat: no-repeat;
-}  */
+
+}
 
 .container {
     margin-left: 50px;
@@ -12,3 +58,24 @@
     align-items: center;
 }
 
+/* logo */
+
+#logo {
+    width: 120px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* buttons styles */
+
+.contactbutton {
+    background-color: #EA5045;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+}
