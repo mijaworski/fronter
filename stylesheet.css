@@ -1,0 +1,18 @@
+body{
+    color: indianred;
+}
+
+form{
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 450px;
+    padding: 50 50 50 50px;
+    text-align:center;
+    align-content: center;
+    width: 414px;
+    height: 736px;
+    background-image: url(images/logo/background.jpg);
+    background-position: center;
+    background-size: 1420px
+}
