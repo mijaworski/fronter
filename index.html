@@ -5,20 +5,37 @@
 <head>
     <meta charset="utf-8">
     <title>Login</title>
-    <link rel="styles" href="stylesheet.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
 <body>
     <section>
         <form id="loginfrom" action="t2.html">
-            <h2>Intranet</h2>
-            <label for="username"></label>
-            <input type="text" id="username" placeholder=username>
-            <label for="pw"></label>
-            <input type="password" id="pw" placeholder=password>
-            <input type="submit" value="sign in">
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me</label>
+            <div id="header">
+                <img src="images/logo/logo-white.png" alt="Logo of KEA" class="logo">
+                <h2>Intranet</h2>
+            </div>
+            <div id="username">
+                <label for="username"></label>
+                <input type="text" id="username" placeholder=username>
+            </div>
+            <div id="password">
+                <img src="images/interface-icones/password.png">
+                <label for="pw"></label>
+                <input type="password" id="pw" placeholder=password>
+            </div>
+            <div id="checkbox">
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me</label>
+                <a href="">Forgot password?</a>
+            </div>
+            <div id="submit">
+                <input type="submit" value="sign in">
+            </div>
+            <div id="newaccount">
+                <p>or<br><a href="">create an account</a><br>
+                    <img src="images/flags/flag-danish.png" alt="Danish flag." class="flag"></p>
+            </div>
         </form>
     </section>
     <script>
