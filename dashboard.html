@@ -1,0 +1,50 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+    <script>
+        window.addEventListener("DOMContentLoaded", function() {
+            let boxes = document.querySelectorAll(".box");
+
+            Array.from(boxes, function(box) {
+                box.addEventListener("click", function() {
+                    alert(this.classList[1]);
+                });
+            });
+        });
+
+        btn.addEventListener("click", () => loginform.classList.toggle("show"))
+
+    </script>
+</head>
+
+<body>
+    <form>
+        <div id="header">
+            <img src="images/logo/logo-white.png" alt="Logo of KEA" class="logo">
+        </div>
+        <div class="wrapper">
+            <div class="studies">
+                <img src="images/section-icones/yourstudies.png" alt="studies icon" class="studieslogo">
+                YOUR STUDIES</div>
+            <div class="general">
+                <img src="images/section-icones/generalinfo.png" alt="general info icon" class="generallogo">
+                GENERAL INFO</div>
+            <div class="alumni">
+                <img src="images/section-icones/alumni_careers.png" alt="alumni" class="alumnilogo">
+                ALUMNI<br>&amp; CAREERS</div>
+            <div class="social">
+                <img src="images/section-icones/socialkea.png" alt="social kea" class="sociallogo">
+                SOCIAL<br>KEA</div>
+        </div>
+        <div id="submit">
+        <input type="submit" value="Get In Touch">
+    </div>
+    </form>
+</body>
+
+</html>
