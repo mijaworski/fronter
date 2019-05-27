@@ -8,7 +8,15 @@
     src: url(font/HelveticaNeueLTStd-Bd.otf);
 }
 
-
+/*
+.username{
+    background-image:url(images/interface-icones/username.png);
+    background-repeat: no-repeat;
+    background-position: 10 center;
+    padding-left: 12px;
+    margin-bottom: 30px;
+}
+*/
 
 /* general*/
 * {
@@ -16,39 +24,37 @@
 
 }
 
-html,
-body {
+html {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     overflow-y: scroll;
 }
 
+body {
+    background-image: url(images/logo/background.jpg);
+    background-position: center;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+}
+
 a {
     text-decoration: none;
     color: white;
     font-family: tarragon;
-    align-content: space-between;
-    flex-direction: row;
-
+    
 }
 
 h2 {
     color: white;
     font-family: tarragon;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 
 
-.background {
-    background-image: url(images/logo/background.jpg);
-    background-position: center;
-    background-size: 1100px;
-    background-repeat: no-repeat;
 
-}
 
 .container {
     margin-left: 50px;
@@ -56,6 +62,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 /* logo */
@@ -66,16 +73,71 @@ h2 {
     margin-top: 20px;
 }
 
-/* buttons styles */
+/* contact buttons */
 
 .contactbutton {
     background-color: #EA5045;
     font-size: 20px;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
     width: 200px;
-    margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
-    padding: 5px;
+    padding: 8px;
+}
+
+.callicon {
+    background-image: url(images/contact-icones/call.png);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 12px;
+    margin-bottom: 20px;
+}
+
+.emailicon {
+    background-image: url(images/contact-icones/email.png);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 12px;
+    margin-bottom: 20px;
+}
+
+.slackicon {
+    background-image: url(images/contact-icones/slack.png);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 12px;
+    margin-bottom: 20px;
+}
+
+/* social media */
+
+#socialmedia {
+    align-content: space-between;
+    flex-direction: row;
+    align-self: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#socialmedia a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* returnmenu */
+
+.returnbutton {
+    background-color: white;
+    opacity: 0.75;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 8px;
+    flex-direction: column;
+    color: #707070;
+    
 }
