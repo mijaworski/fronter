@@ -54,9 +54,10 @@ body {
 .studies{
     background-color: #EA5045;
     color: #FFFFFF;
-     width: 161;
+    width: 161;
     height: 239;
     font-size: 24;
+    vertical-align: middle;
 }
 
 .studieslogo{
@@ -65,6 +66,7 @@ body {
     margin-bottom: 21.2px;
     margin-top: 45;
     margin-left: 17;
+    vertical-align: middle;
 }
 
 .general{
@@ -73,6 +75,7 @@ body {
     width: 161;
     height: 239;
     font-size: 24;
+    vertical-align: middle;
 }
 
 .generallogo{
@@ -80,6 +83,7 @@ body {
     height: 77.82px;
     margin-bottom: 21.2px;
     margin-top: 45;
+    vertical-align: middle;
 }
 
 .alumni{
@@ -113,17 +117,64 @@ body {
     margin-left: 7px;
 }
 
-input[type=submit] {
-    align-items: center;
+#submit{
     width: 313px;
     height: 46px;
     border-radius: 12px;
     border: 0px;
     background-color: #FFFFFF;
-    opacity: 0.80;
+    opacity: 0.74;
     color: #707070;
     font-family: tarragon;
     font-size: 24px;
-    text-align: bottom;
     margin-top: 55;
+    margin-left: 50;
+    text-align: center;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 46px;  
+}
+
+a:link.getintouch{
+    font-family: tarragon;
+    text-decoration: none;
+    color: #707070;
+}
+a:visited.getintouch{
+    font-family: tarragon;
+    text-decoration: none;
+    color: #707070;
+}
+a:hover.getintouch{
+    font-family: tarragon;
+    text-decoration: none;
+    color: #8E7FAE;
+}
+a:active.getintouch{
+    font-family: tarragon;
+    text-decoration: none;
+    color: #6ECEB2;
+}
+
+
+a:link.yourstudies{
+    font-family: tarragon;
+    text-decoration: none;
+    color: white;
+}
+a:visited.yourstudies{
+    font-family: tarragon;
+    text-decoration: none;
+    color: white;
+}
+a:hover.yourstudies{
+    font-family: tarragon;
+    text-decoration: none;
+    color: white;
+}
+a:active.yourstudies{
+    font-family: tarragon;
+    text-decoration: none;
+    color: white;
 }
