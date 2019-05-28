@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: aioli;
     src: url(font/HelveticaNeueLTStd-LtCn.otf);
@@ -8,6 +12,13 @@
     src: url(font/HelveticaNeueLTStd-Bd.otf);
 }
 
+html {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
 .logo {
     margin-top: 30;
     margin-bottom: 30;
@@ -15,43 +26,58 @@
     height: 51
 }
 
-form{
+form {
     font-family: tarragon;
-    position: absolute;
-    z-index: 1;
-    top: 0px;
-    right: 450px;
-    padding: 50 50 50 50px;
+    display: inline-block;
+    margin-left: auto;
+    margin-bottom: auto;
+    padding: 50 50 0 50px;
     text-align: center;
     align-content: center;
-    width: 414px;
+    width: 100%;
     height: 736px;
-    background-image: url(images/logo/background.png);
-    background-position: center;
-    background-size: 1420px;
-    margin-bottom: 0;
+    margin-top: 0px;
 }
 
-body {
-  margin: 40px;
+body {}
+
+body::before {
+    background-image: url(images/logo/bcgnwvsn.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: -2;
+    opacity: 0.75;
 }
 
 .wrapper {
-  display: grid;
-  grid-template: 239px / auto auto;
-  grid-gap: 10px;
+    display: grid;
+    grid-template: 239px / auto auto;
+    grid-gap: 10px;
     justify-content: center;
-  align-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-bottom: auto;
 }
 
 .box {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-bottom: auto;
 }
 
-.studies{
+.studies {
     background-color: #EA5045;
     color: #FFFFFF;
     width: 161;
@@ -60,16 +86,16 @@ body {
     vertical-align: middle;
 }
 
-.studieslogo{
+.studieslogo {
     width: 67.68px;
-    height: 74.66px; 
+    height: 74.66px;
     margin-bottom: 21.2px;
     margin-top: 45;
     margin-left: 17;
     vertical-align: middle;
 }
 
-.general{
+.general {
     background-color: #8E7FAE;
     color: #FFFF;
     width: 161;
@@ -78,7 +104,7 @@ body {
     vertical-align: middle;
 }
 
-.generallogo{
+.generallogo {
     width: 71.3px;
     height: 77.82px;
     margin-bottom: 21.2px;
@@ -86,7 +112,7 @@ body {
     vertical-align: middle;
 }
 
-.alumni{
+.alumni {
     background-color: #6ECEB2;
     color: #FFFF;
     width: 161;
@@ -94,14 +120,14 @@ body {
     font-size: 24;
 }
 
-.alumnilogo{
+.alumnilogo {
     width: 71.24px;
     height: 69.82px;
     margin-bottom: 21.2px;
     margin-top: 45;
 }
 
-.social{
+.social {
     background-color: #FDD757;
     color: #FFFF;
     width: 161;
@@ -109,7 +135,7 @@ body {
     font-size: 24;
 }
 
-.sociallogo{
+.sociallogo {
     width: 59.08px;
     height: 77.42px;
     margin-bottom: 21.2px;
@@ -117,7 +143,7 @@ body {
     margin-left: 7px;
 }
 
-#submit{
+#submit {
     width: 313px;
     height: 46px;
     border-radius: 12px;
@@ -133,47 +159,56 @@ body {
     flex-direction: column;
     text-align: center;
     vertical-align: middle;
-    line-height: 46px;  
+    line-height: 46px;
+    display:inline-block;
+    margin-left: auto;
+    margin-bottom: auto;
 }
 
-a:link.getintouch{
+a:link.getintouch {
     font-family: tarragon;
     text-decoration: none;
     color: #707070;
 }
-a:visited.getintouch{
+
+a:visited.getintouch {
     font-family: tarragon;
     text-decoration: none;
     color: #707070;
 }
-a:hover.getintouch{
+
+a:hover.getintouch {
     font-family: tarragon;
     text-decoration: none;
     color: #8E7FAE;
 }
-a:active.getintouch{
+
+a:active.getintouch {
     font-family: tarragon;
     text-decoration: none;
     color: #6ECEB2;
 }
 
 
-a:link.yourstudies{
+a:link.yourstudies {
     font-family: tarragon;
     text-decoration: none;
     color: white;
 }
-a:visited.yourstudies{
+
+a:visited.yourstudies {
     font-family: tarragon;
     text-decoration: none;
     color: white;
 }
-a:hover.yourstudies{
+
+a:hover.yourstudies {
     font-family: tarragon;
     text-decoration: none;
     color: white;
 }
-a:active.yourstudies{
+
+a:active.yourstudies {
     font-family: tarragon;
     text-decoration: none;
     color: white;
