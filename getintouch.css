@@ -19,7 +19,7 @@ html {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    overflow-y:scroll;
+    
 }
 
 body {
@@ -63,7 +63,7 @@ h2 {
 
 
 .container {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     display: flex;
