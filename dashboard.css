@@ -16,6 +16,7 @@ html {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    overflow-y: scroll;
 
 }
 
@@ -210,4 +211,70 @@ a:active.yourstudies {
     font-family: tarragon;
     text-decoration: none;
     color: white;
+}
+
+
+
+/* second form */
+
+.block {
+    display: none;
+}
+
+.offerbutton {
+    background-color: white;
+    font-size: 24px;
+    border-radius: 20px;
+    border: none;
+    width: 313px;
+    height: 46px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 12px;
+}
+
+#mainoffer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#mainoffer a {
+    color: #707070;
+    text-decoration: none;
+}
+
+.smaller {
+    animation: smaller 2s forwards;
+}
+
+@keyframes smaller {
+    100% {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 2s;
+    }
+}
+
+.menu-content {
+    animation: menuappear 2s forwards;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes menuappear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.dashboard-hidden {
+    display: none;
 }
