@@ -6,20 +6,6 @@
     <meta charset="utf-8">
     <title>Dashboard</title>
     <link rel="stylesheet" type="text/css" href="dashboard.css">
-    <script>
-        window.addEventListener("DOMContentLoaded", function() {
-            let boxes = document.querySelectorAll(".box");
-
-            Array.from(boxes, function(box) {
-                box.addEventListener("click", function() {
-                    alert(this.classList[1]);
-                });
-            });
-        });
-
-        btn.addEventListener("click", () => loginform.classList.toggle("show"))
-
-    </script>
 </head>
 
 <body>
@@ -42,9 +28,21 @@
                 SOCIAL<br>KEA</div>
         </div>
         <div id="submit">
-        <input type="submit" value="Get In Touch">
-    </div>
+            <input type="submit" value="Get In Touch">
+        </div>
     </form>
+    <script>
+        window.addEventListener("DOMContentLoaded", function() {
+            let boxes = document.querySelectorAll(".box");
+
+            Array.from(boxes, function(box) {
+                box.addEventListener("click", function() {
+                    alert(this.classList[1]);
+                });
+            });
+        });
+
+    </script>
 </body>
 
 </html>
