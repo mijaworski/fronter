@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: aioli;
+    src: url(font/HelveticaNeueLTStd-LtCn.otf);
+}
+
+@font-face {
+    font-family: tarragon;
+    src: url(font/HelveticaNeueLTStd-Bd.otf);
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+
+}
+
+
+form {
+    font-family: tarragon;
+    display: inline-block;
+    margin-left: auto;
+    margin-bottom: auto;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 736px;
+    margin-top: 0px;
+    
+}
+
+body {}
+
+body::before {
+    background-image: url(images/logo/bcgnwvsn.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: -2;
+    opacity: 0.75;
+}
+
+img {
+    width: 15%;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    background-color: #EA5045;
+    width: 100vw;
+    margin-top: 0;
+    padding: 10px;
+    
+}
+
+#header p {
+    color: white;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.offerbutton {
+    background-color: white;
+    font-size: 24px;
+    border-radius: 20px;
+    border: none;
+    width: 313px;
+    height: 46px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 12px;
+    color: #707070;
+}
+
+#mainoffer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#submit {
+    background-color: white;
+    opacity: 0.75;
+    font-size: 24px;
+    border-radius: 20px;
+    border: none;
+    width: 313px;
+    height: 46px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 12px;
+    flex-direction: column;
+    color: #707070;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#submit a {
+    color: #707070;
+}
