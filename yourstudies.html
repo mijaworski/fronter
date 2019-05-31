@@ -9,13 +9,23 @@
 </head>
 
 <body>
-    <form>
-        <div id="header">
-            <img src="images/section-icones/yourstudies.png" alt="yourstudiesicon" id="icon">
-            <p>YOUR STUDIES</p>
-            
-
+    <nav>
+        <img src="images/section-icones/yourstudies.png" alt="yourstudiesicon" id="studylogo">
+        <div id="logo">
+            <h4>Your studies</h4>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Log-in page</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="getintouch.html">Contact us</a></li>
+            </ul>
+        <div class="burger">
+        <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
+    </nav>
+    <form action="dashboard.html">
         <div id="mainoffer">
             <a href="" class="offerbutton">Semester Info</a>
             <a href="" class="offerbutton">Messages</a>
@@ -24,9 +34,10 @@
             <a href="" class="offerbutton">Semester Abroad</a>
         </div>
         <div id="submit">
-            <a href="getintouch.html" class="getintouch">Go back</a>
+                <input type="submit" value="Go back">
         </div>
     </form>
+    <script src="app.js"></script>
 </body>
 
 </html>
