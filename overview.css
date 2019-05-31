@@ -1,0 +1,279 @@
+@font-face {
+    font-family: aioli;
+    src: url(font/HelveticaNeueLTStd-LtCn.otf);
+}
+
+@font-face {
+    font-family: tarragon;
+    src: url(font/HelveticaNeueLTStd-Bd.otf);
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+body {}
+
+body::before {
+    background-image: url(images/logo/bcgnwvsn.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: -2;
+    opacity: 0.75;
+}
+
+form {
+    font-family: tarragon;
+    display: inline-block;
+    margin-left: auto;
+    margin-bottom: auto;
+    padding: 50 50 0 50px;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 206px;
+    margin-top: 0px;
+}
+
+#logo {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+#logo img {
+    display: inline-block;
+}
+
+h2 {
+    color: white;
+    font-family: tarragon;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+
+a {
+    color: black;
+    opacity: 0.94;
+}
+
+a:hover {
+    color: #EA5045;
+    cursor: pointer;
+}
+
+
+
+.offerbutton {
+    background-color: white;
+    font-size: 24px;
+    border-radius: 20px;
+    border: none;
+    width: 313px;
+    height: 26px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 12px;
+}
+
+#mainoffer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#mainoffer a {
+    color: #707070;
+    text-decoration: none;
+}
+
+a:link.getintouch {
+    font-family: tarragon;
+    text-decoration: none;
+    color: #707070;
+}
+
+a:visited.getintouch {
+    font-family: tarragon;
+    text-decoration: none;
+    color: #707070;
+}
+
+a:hover.getintouch {
+    font-family: tarragon;
+    text-decoration: none;
+    color: #8E7FAE;
+}
+
+a:active.getintouch {
+    font-family: tarragon;
+    text-decoration: none;
+    color: #6ECEB2;
+}
+
+
+
+input[type=submit] {
+    align-items: center;
+    width: 313px;
+    height: 46px;
+    border-radius: 220px;
+    border: 0px;
+    background-color: white;
+    color: #707070;
+    opacity: 0.80;
+    font-family: tarragon;
+    font-size: 24px;
+    text-align: bottom;
+    display: inline-block;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: 60px;
+}
+
+#submit a {
+    color: #707070;
+}
+
+@media screen and (max-width: 1600px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 0;
+    grid-column-gap: 0px;
+    grid-template-rows: repeat(4, 150px);
+    justify-content: center;
+}
+
+.cell {
+
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.cell-1 {
+    grid-row: 1/4;
+    grid-column: 2/4;
+
+
+}
+
+.cell-2 {
+    grid-row: 2/4;
+    grid-column: 2/4;
+
+
+}
+
+.cell-3 {
+    grid-row: 3/4;
+    grid-column: 1/4;
+
+
+}
+
+.cell-4 {
+    grid-row: 3/4;
+    grid-column: 2/4;
+
+}
+
+.cell-5 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+
+
+}
+    
+    @media screen and (max-width: 500px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+
+}
+    
+    
+    
+        body {
+        overflow-x: hidden;
+    }
+    
+    
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 2rem;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 80px;
+    grid-column-gap: 0px;
+    grid-template-rows: repeat(5, 100px);
+    justify-content: center;
+}
+
+.cell {
+
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.cell-1 {
+    grid-row: 1/5;
+    grid-column: 1;
+
+
+}
+
+.cell-2 {
+    grid-row: 2/5;
+    grid-column: 1;
+
+
+}
+
+.cell-3 {
+    grid-row: 3/5;
+    grid-column: 1;
+
+
+}
+
+.cell-4 {
+    grid-row: 4/5;
+    grid-column: 1;
+
+}
+
+.cell-5 {
+    grid-row: 5/5;
+    grid-column: 1;
+
+
+}
+    
