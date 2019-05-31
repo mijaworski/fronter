@@ -221,3 +221,15 @@ a:active.yourstudies {
     text-decoration: none;
     color: white;
 }
+
+@media only screen and (max-width:434px){
+    .wrapper {
+    display: grid;
+    grid-template: 250px / auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+}

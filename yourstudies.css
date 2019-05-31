@@ -190,6 +190,10 @@ input[type=submit] {
     body {
         overflow-x: hidden;
     }
+    body::before {
+    background-image: url(images/logo/bcgnwvsn.png);
+        background-size:cover;
+    }
 
     .nav-links {
         position: absolute;
@@ -238,4 +242,59 @@ input[type=submit] {
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-12px,-8px);
+}
+
+@media only screen and (max-width:434px){
+    *{
+        overflow: hidden;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    body::before {
+    background-image: url(images/logo/bcgnwvsn.png);
+        background-size:cover;
+    }
+    
+    nav {
+    font-family: tarragon;
+    display: flex;
+    //*justify-content: space-around;
+    align-content: center;*//
+    min-height: 8vh;
+    background-color: #EA5045;
+    margin: 0 auto;
+    height: 80px;
+    padding: 20px 20px 20px 20px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+h4{
+    font-size: 20px;
+    align-items:center;
+}
+
+#logo {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    display: flex;
+}
+    .offerbutton{
+        width: 70%;
+    }
+    input[type=submit]{
+        width: 70%;
+    }
+    
+    .nav-links{
+        overflow: hidden;
+        height: 35vh;
+        
+    }
+    .nav-links a{
+        font-size: 18px;
+    }
 }
