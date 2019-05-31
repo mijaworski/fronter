@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: aioli;
+    src: url(font/HelveticaNeueLTStd-LtCn.otf);
+}
+
+@font-face {
+    font-family: tarragon;
+    src: url(font/HelveticaNeueLTStd-Bd.otf);
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    font-family: tarragon;
+    display: inline-block;
+    margin-left: auto;
+    margin-bottom: auto;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 736px;
+    margin-top: 0px;
+}
+
+body {}
+
+body::before {
+    background-image: url(images/logo/bcgnwvsn.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: -2;
+    opacity: 0.75;
+}
+
+.wrapper {
+    display: grid;
+    grid-template: 239px / auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.box {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.studies {
+    background-color: #EA5045;
+    color: #FFFFFF;
+    width: 161;
+    height: 239;
+    font-size: 21;
+    vertical-align: middle;
+}
+
+.studieslogo {
+    width: 82px;
+    height: 83px;
+    margin-bottom: 21.2px;
+    vertical-align: middle; 
+    margin-top: 55px;
+}
+
+.general {
+    background-color: #8E7FAE;
+    color: #FFFF;
+    width: 161;
+    height: 239;
+    font-size: 21;
+    vertical-align: middle;
+}
+
+.generallogo {
+    width: 52px;
+    height: 93px;
+    margin-bottom: 21.2px;
+    margin-top: 45;
+    vertical-align: middle; 
+}
+
+.alumni {
+    background-color: #6ECEB2;
+    color: #FFFF;
+    width: 161;
+    height: 239;
+    font-size: 20;
+    justify-content:center;
+    align-items:center;  
+}
+
+.alumnilogo {
+    width: 62px;
+    height: 94px;
+    margin-bottom: 21.2;
+    margin-top: 49px;
+    justify-content:center;
+    align-items:center;
+}
+
+.social {
+    background-color: #FDD757;
+    color: #FFFF;
+    width: 161;
+    height: 239;
+    font-size: 20;
+}
+
+.sociallogo {
+    width: 44px;
+    height: 95px;
+    margin-bottom: 21.2px;
+    margin-top: 49;
+    margin-left: 7px;
+    vertical-align: middle;
+}
+
+#submit {
+    width: 313px;
+    height: 46px;
+    border-radius: 12px;
+    border: 0px;
+    background-color: #FFFFFF;
+    opacity: 0.74;
+    color: #707070;
+    font-family: tarragon;
+    font-size: 24px;
+    margin-top: 55;
+    margin-left: 50;
+    text-align: center;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 46px;
+    display: inline-block;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+a:link.getintouch {
+    font-family: tarragon;
+    text-decoration: none;
+    color: #707070;
+}
+
+a:visited.getintouch {
+    font-family: tarragon;
+    text-decoration: none;
+    color: #707070;
+}
+
+a:hover.getintouch {
+    font-family: tarragon;
+    text-decoration: none;
+    color: #8E7FAE;
+}
+
+a:active.getintouch {
+    font-family: tarragon;
+    text-decoration: none;
+    color: #6ECEB2;
+}
+
+
+a:link.yourstudies {
+    font-family: tarragon;
+    text-decoration: none;
+    color: white;
+}
+
+a:visited.yourstudies {
+    font-family: tarragon;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover.yourstudies {
+    font-family: tarragon;
+    text-decoration: none;
+    color: white;
+}
+
+a:active.yourstudies {
+    font-family: tarragon;
+    text-decoration: none;
+    color: white;
+}
