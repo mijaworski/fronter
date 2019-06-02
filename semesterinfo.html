@@ -1,41 +1,53 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Semester Info</title>
     <link rel="stylesheet" type="text/css" href="semesterinfo.css">
+    
+    <script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
 </head>
 
+
 <body>
-    <nav>
-        <div id="logo">
-            <h4>SEMESTER INFO</h4>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Log-in page</a></li>
-                <li><a href="dashboard.html">Dashboard</a></li>
-                <li><a href="getintouch.html">Contact us</a></li>
-            </ul>
-        <div class="burger">
-        <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-    </nav>
-    <form action="yourstudies.html">
-        <div id="mainoffer">
-            <a href="overview.html" class="offerbutton">Semester Overview</a>
-            <a href="schedule.html" class="offerbutton">Schedule</a>
-            <a href="" class="offerbutton">Portfolio</a>
-            <a href="themes.html" class="offerbutton">Themes</a>
-        </div>
-        <div id="submit">
-                <input type="submit" value="Go back">
+
+    <form id="semesterinfo">
+        <div id="header" class="visible">
+            <img src="images/logo/logo-black.png" alt="Logo of KEA" class="logo">
+
+            <h2>Semester Info</h2>
+
         </div>
     </form>
-    <script src="app.js"></script>
+
+    <form id=semesterinfomenu class="menu-content">
+        <div id="mainoffer">
+            <a href="overview.html" class="offerbutton">Semester Overview</a>
+            <a href="" class="offerbutton">Schedule</a>
+            <a href="" class="offerbutton">Portfolio</a>
+            <a href="" class="offerbutton">Themes</a>
+
+        </div></form>
+   
+
+
+  <form>
+        <button class="backbutton"><a href="yourstudies.html">Go back</a></button>
+
+
+
+    </form>
+
+
 </body>
+
 
 </html>
