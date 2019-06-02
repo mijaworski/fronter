@@ -207,10 +207,7 @@ h4{
 }
 
 .schedule{
-  position: relative;
-    align-content: center;
-    object-position: center;
-    padding-left: 50px;
-    padding-right: 50px;
+  position: absolute;
+    left: 19px;
     
     }
